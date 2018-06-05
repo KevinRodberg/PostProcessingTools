@@ -19,10 +19,10 @@ def getOptions():
 
  [Arguments required with the following Options:]
 
-    -fgeo FGDB              Rasters names from F-geoDatabase found in B-geoDatabase will be subtracted (B-F)
-    -one  rasterName        
-    -rasras [FirstRaster, SecondRaster]
-    -ogeo GEODB             Saves rasters in GeoDatabase
+    -fgeo   FGDB                       Rasters names from F-geoDatabase found in B-geoDatabase will be subtracted (B-F)
+    -one    rasterName                 Single raster to subtract from rasters in bgdb
+    -rasras FirstRaster SecondRaster   SecondRaster is subtracted from FirstRaster
+    -ogeo   GEODB                      Saves rasters in GeoDatabase
         
   [for instance:]
   
